@@ -1,19 +1,18 @@
 {
-  "name": "assinaturahtmlelaineb2b",
-  "version": "1.0.0",
-  "description": "codigo destinado para utilizacao em assinatura",
-  "main": "index.js",
+  "name": "emailselaine",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cmrpaulussi/assinaturaHtmlElaineB2b.git"
+  "dependencies": {
+    "vue": "^3.4.37"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cmrpaulussi/assinaturaHtmlElaineB2b/issues"
-  },
-  "homepage": "https://github.com/cmrpaulussi/assinaturaHtmlElaineB2b#readme"
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "vite": "^5.4.1"
+  }
 }
